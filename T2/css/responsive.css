@@ -1,0 +1,513 @@
+@media screen and (min-width: 1201px) {
+
+}
+
+@media screen and (max-width: 1200px) and (min-width: 993px) {
+    .header_black,
+    .header_menu,
+    .mailing,
+    .poster,
+    .main_nav,
+    .clearence,
+    .brands,
+    .about{
+        padding: 0 15px;
+    }
+    .brands_line{
+        margin: 0 -15px;
+    }
+    .date_txt{
+        padding-left: 15px;
+        width: 60%;
+    }
+    .date_customer, .date_info, .date_camp {
+        padding-right: 51px;
+    }
+    .date_social{
+        padding-right: 15px;
+    }
+    .privacy_menu{
+        padding-left: 15px;
+    }
+    .rights{
+        padding-right: 15px;
+    }
+}
+
+@media screen and (max-width: 992px) and (min-width: 769px) {
+    .header_black,
+    .header_menu,
+    .mailing,
+    .poster,
+    .main_nav,
+    .clearence,
+    .brands,
+    .about{
+        padding: 0 15px;
+    }
+    .brands_line{
+        margin: 0 -15px;
+    }
+    .date_txt{
+        padding-left: 15px;
+        width: 384px;
+    }
+    .date_customer, .date_info{
+        padding-right: 51px;
+        padding-bottom: 25px;
+    }
+    .date_camp{
+        padding-right: 71px;
+    }
+    .date_social{
+        padding-right: 15px;
+    }
+    .privacy_menu{
+        padding-left: 15px;
+    }
+    .rights{
+        padding-right: 15px;
+    }
+    .clearence_model .card:last-child,
+    .brands div:last-child{
+        display: none;
+    }
+    .logo{
+        margin-top: 15px;
+        margin-right: 200px;
+    }
+    .menu {
+        float: left;
+        padding-right: 30px;
+        margin-top: 3px;
+    }
+}
+
+@media screen and (max-width: 768px) and (min-width: 641px) {
+    .header_black,
+    .header_menu,
+    .mailing,
+    .poster,
+    .main_nav,
+    .clearence,
+    .brands,
+    .about{
+        padding: 0 15px;
+    }
+    .brands_line{
+        margin: 0 -15px;
+    }
+    .date_txt{
+        padding-left: 15px;
+        width: 338px;
+    }
+    .date_customer, .date_info{
+        padding-right: 51px;
+        padding-bottom: 25px;
+    }
+    .date_camp{
+        padding-right: 71px;
+    }
+    .date_social{
+        padding-right: 15px;
+        width: 224px;
+    }
+    h1{
+        margin-bottom: 11px;
+    }
+    .date_social img {
+        position: relative;
+        left: 12px;
+        top: 87px;
+    }
+    .privacy_menu{
+        padding-left: 15px;
+    }
+    .rights{
+        padding-right: 15px;
+    }
+    .clearence_model .card:first-child,
+    .clearence_model .card:last-child,
+    .brands div:nth-child(3),
+    .brands div:first-child,
+    .ps,
+    .payment{
+        display: none;
+    }
+    .banner,
+    .poster{
+        display: none;
+    }
+
+    .clearence_model {
+        padding: 0 11%;
+    }
+
+            /*-menu-box-*/
+.menu{
+    display: none;
+    float: none;
+    padding-right: 0;
+    margin-top: 0;
+    position: absolute;
+    top: 183px;
+    z-index: 40;
+}
+.menu_nav{
+    height: 310px;
+    display: inline-block;
+    background-color: rgb(70, 70, 70);
+    padding: 10px;
+}
+.menu_nav_item{
+    float: none;
+    margin-right: 0;
+    font-weight: 600;
+    margin-top: 20px;
+    background-color: rgb(70, 70, 70);
+    position: relative;
+}
+.menu_nav_link{
+    color: white;
+    padding: 10px;
+    width: 90px;
+    border: 1px solid rgb(137, 137, 137);
+    display: inline-block;
+}
+.menu_nav_link::after{
+    padding-left: 0;
+    float: right;
+}
+        /*-sub - menu-*/
+.menu_nav_sub{
+    margin-top: 0;
+    top: 1px;
+    left: 121px;
+}
+.menu_nav_sub_link{
+    font-size: 16px;
+    font-weight: 600;
+    padding: 10px;
+}
+
+.menu_box{
+    display: block;
+}
+.header_menu input{
+    display: block;
+}
+#menu_h:checked ~ .menu{
+    display: block;
+}
+.network {
+    margin-right: -20px;
+}
+}
+
+@media screen and (max-width: 640px) and (min-width: 320px) {
+    .header_menu,
+    .mailing,
+    .poster,
+    .main_nav,
+    .clearence,
+    .brands,
+    .about{
+        padding: 0 13px;
+    }
+    .brands_line{
+        margin: 0 -15px;
+    }
+    .date_txt{
+        padding-left: 15px;
+        width: 338px;
+    }
+    .date_customer, .date_info{
+        padding-right: 51px;
+        padding-bottom: 25px;
+    }
+    .date_camp{
+        padding-right: 71px;
+    }
+    .date_social{
+        padding-right: 15px;
+        width: 224px;
+    }
+    h1{
+        margin-bottom: 11px;
+    }
+    .date_social img {
+        position: relative;
+        left: 12px;
+        top: 87px;
+    }
+    .privacy_menu{
+        padding-left: 15px;
+    }
+    .rights{
+        padding-right: 15px;
+    }
+    .clearence_model .card:first-child,
+    .clearence_model .card:last-child,
+    .brands div:nth-child(3),
+    .brands div:first-child,
+    .ps,
+    .payment{
+        display: none;
+    }
+    .banner,
+    .poster{
+        display: none;
+    }
+
+/*-menu-box-*/
+.menu{
+    display: none;
+    float: none;
+    padding-right: 0;
+    margin-top: 0;
+    position: absolute;
+    top: 510px;
+    z-index: 40;
+}
+.menu_nav{
+    height: 310px;
+    display: inline-block;
+    background-color: rgb(70, 70, 70);
+    padding: 10px;
+}
+.menu_nav_item{
+    float: none;
+    margin-right: 0;
+    font-weight: 600;
+    margin-top: 20px;
+    background-color: rgb(70, 70, 70);
+    position: relative;
+}
+.menu_nav_link{
+    color: white;
+    padding: 10px;
+    width: 90px;
+    border: 1px solid rgb(137, 137, 137);
+    display: inline-block;
+}
+.menu_nav_link::after{
+    padding-left: 0;
+    float: right;
+}
+        /*-sub - menu-*/
+.menu_nav_sub{
+    margin-top: 0;
+    top: 1px;
+    left: 121px;
+}
+.menu_nav_sub_link{
+    font-size: 16px;
+    font-weight: 600;
+    padding: 10px;
+}
+    /*-menu_box-*/
+.menu_box{
+    display: block;
+}
+.header_menu input{
+    display: block;
+}
+#menu_h:checked ~ .menu{
+    display: block;
+}
+
+/*-- HEADER --*/
+
+.header_black{
+    display: block;
+    background: white;
+    height: 97px;
+    padding: 0;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.telefon,
+.telefon span{
+    float: none;
+    background: rgb(245, 245, 245);
+    color: rgb(131, 131, 131);
+    font-size: 5vw;
+    line-height: 89px;
+}
+.search{
+    height: 97px;
+    background-color: black;
+}
+.rate,
+.search_form input{
+    font-size: 5vw;
+    line-height: 89px;
+}
+
+.search_form{
+    float: none;
+}
+.rate{
+    width: 24%;
+    height: 97px;
+    padding-left: 13px;
+    border-left: none;
+}
+.search_form input{
+    width: 53%;
+    height: 97px;
+}
+.fa.fa-user{
+    top: 29px;
+    font-size: 7vw;
+}
+.search_btn{
+    width: 17%;
+    height: 97px;
+    border-right: none;
+}
+.fa.fa-search{
+    font-size: 9vw;
+}
+    /*--------*/
+.header_menu {
+    height: 320px;
+}
+.logo {
+    float: none;
+    width: 120px;
+    height: 28px;
+    background: url(../Image/logo1.png) no-repeat 50% 59%;
+    padding-bottom: 47px;
+    margin-left: 38%;
+    margin-top: 0px;
+    display: inline-block;
+}
+.shop {
+    float: none;
+    margin-top: 0;
+}
+.shop select,
+.shop_number {
+    float: none;
+    font-size: 5vw;
+    width: 100%;
+    height: 55px;
+    margin-bottom: 20px;
+    border: 1px solid rgb(145, 145, 145);
+}
+.shop_number_sum,
+.shop_number span,
+.shop_number_items{
+    margin-top: 12px;
+}
+.menu_box_icon {
+    font-size: 40px;
+    padding-left: 13px;
+}
+.menu_box_icon::after {
+    margin-right: 13px;
+}
+.menu_box {
+    display: block;
+    height: 94px;
+    margin: 0 13px;
+}
+
+.mailing {
+    background-color: white;
+    height: 168px;
+    margin-bottom: 20px;
+}
+.mailing_email {
+    float: none;
+    margin: 20px 0;
+    height: 70px;
+    background-color: rgb(245, 245, 245);
+}
+.mailing_email label{
+    display: none;
+}
+.network {
+    float: none;
+    text-align: center;
+}
+.network a {
+    float: none;
+    width: 78px;
+    font-size: 35px;
+    line-height: 78px;
+    display: inline-block;
+    margin-right: 10px;
+}
+.network p {
+    display: none;
+}
+.mailing_email input {
+    font-style: italic;
+    font-size: 24px;
+    width: 69%;
+    background-color: rgb(245, 245, 245);
+    margin: 19px 0 0 12px;
+}
+.mailing_plus {
+    width: 70px;
+    height: 70px;
+    font-size: 28px;
+    float: right;
+}
+    /*---*/
+.main_nav{
+    width: 100%;
+    background-color: rgb(244, 132, 93);
+}
+.main_nav ul{
+    display: none;
+}
+.main_slider_right{
+    margin-right: 25px;
+}
+.main_nav_mobil {
+    display: block;
+}
+.load{
+    display: block;
+}
+.date{
+    display: none;
+}
+
+/*----*/
+
+.privacy_menu{
+    display: none;
+    float: left;
+    height: 220px;
+    width: 160px;
+    background-color: black;
+    position: relative;
+    margin-top: -220px;
+    margin-left: 22px;
+}
+.privacy_menu li{
+    display: block ;
+    margin: 8px 0;
+}
+.privacy_menu a{
+    font-size: 18px;
+    padding: 7px 5px;
+    width: 140px;
+    display: block;
+}
+.menu_pr_icon{
+    display: inline-block;
+}
+#menu_pr:checked ~ .privacy_menu{
+    display: block;
+}
+
+.rights,
+.rights a {
+    font-size: 20px;
+}
+}
